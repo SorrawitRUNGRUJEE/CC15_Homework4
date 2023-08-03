@@ -27,7 +27,7 @@ body{
     justify-content: flex-end;
     padding-right: 48px;
     padding-top: 8px;
-    height: 5vh;
+    /* height: 5vh; */
     
 
 }
@@ -46,9 +46,9 @@ body{
 /* main start */
 .figmaMain{
     /* background-color: green; */
-    height: 85vh;
+    /* height: 85vh; */
     /* border: solid purple; */
-    margin-top: 16px;
+    margin-top: 80px;
 
 }
 
@@ -65,7 +65,7 @@ body{
 
     display: flex;
     justify-content: center;
-    border: solid black;
+    /* border: solid black; */
     width: 25%;
     height: 25%;
     padding-bottom: 48px;
@@ -81,6 +81,14 @@ body{
     /* border: solid black; */
     width: 60%;
     padding-top: 48px;
+    margin-left: 128px;
+}
+
+.introContentText  p:nth-child(1)
+, .introContentText p:nth-child(2){
+    font-size: 3rem;
+    line-height: 4px;
+
 }
 
 .introContent button{
@@ -96,15 +104,21 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #d1eefa;
+    padding-bottom: 16px;
 
 }
 
 .recentPostDisplay{
-    padding-left: 32px;
-    padding-right: 64px ;
+    padding-left: 16px;
+    padding-right: 128px ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 128px;
+}
+
+.recentPostDisplay p:nth-child(2){
+    color: blue;
 }
 
 .recentPost1{
@@ -112,19 +126,44 @@ body{
     flex-direction: row;
     justify-content: space-around;
     /* border: solid black; */
-    gap: 200px;
+    gap: 30px;
+    margin-right:140px;
+    margin-left: 140px;
+    /* margin-bottom: 32px; */
+    /* padding-bottom: 128px; */
 }
 .left_recent_post,.right_recent_post{
-border: solid black;
-padding: 32px;
+/* border: solid black; */
+background-color: #fff;
+padding: 8px;
+margin-bottom: 8px;
 }
 
+.left_recent_post p:first-child,.right_recent_post p:first-child{
+    font-size: 2.5rem;
+}
+
+.left_recent_post p:nth-child(4),.right_recent_post p:nth-child(4){
+    font-size: 1.2rem;
+}
+
+.left_recent_post_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+    
+}
+
+.left_recent_post_1 p{
+    font-size: 1rem;
+}
 /* main End */
 
 /* footer Start */
 .figmaFooter{
     background-color: rgb(131, 131, 185);
-    height: 10vh;
+    /* height: 10vh; */
 
     
 
