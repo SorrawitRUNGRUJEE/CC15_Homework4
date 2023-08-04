@@ -39,11 +39,37 @@ body{
     display: flex;
     gap: 16px;
 }
-
 .nav a{
     font-size: 1.5rem;
     font-weight: 800;
 }
+.navBlock{
+    display: flex;
+    gap: 16px;
+}
+.navBlock a{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.navBlock a:first-child{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: red;
+}
+.navWork {
+    display: flex;
+    gap: 16px;
+}
+.navWork a{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.navWork a:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: red;
+}
+
 
 /* .nav > :nth-child(2){
     color: red;
