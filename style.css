@@ -118,7 +118,7 @@ body{
 }
 
 .recentPostDisplay p:nth-child(2){
-    color: blue;
+    color: rgb(21, 198, 221);
 }
 
 .recentPost1{
@@ -157,6 +157,20 @@ margin-bottom: 8px;
 
 .left_recent_post_1 p{
     font-size: 1rem;
+}
+
+.featuredWork{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 140px;
+
+}
+
+.featuredWork_content_1, .featuredWork_content_2, .featuredWork_content_3{
+    display: flex;
+    border: solid black;
+    margin-top: 16px;
 }
 /* main End */
 
